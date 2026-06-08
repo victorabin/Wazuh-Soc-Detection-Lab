@@ -15,20 +15,11 @@ A fully functional Security Operations Center (SOC) lab built from scratch. I de
 
 Lab Architecture
 ----------------
-
-┌───────────────────────────────────────────────────────────── ┐
-│ Virtualization Host                                          │
-│                                                              │
-│  ┌──────────────┐   ┌──────────────┐   ┌──────────────┐      │
-│  │ WAZUH-SRV    │   │ WIN-ENDPOINT │   │ ATTACKER     │      │
-│  │ Wazuh Server │   │ Windows 10   │   │ Kali Linux   │      │
-│  │ Ubuntu 22.04 │   │ 192.168.0.103│   │ 192.168.0.105│      │
-│  │ 192.168.0.106│   │ Wazuh Agent  │   │ Hydra/Nmap   │      │
-│  │ SIEM         │   │              │   │ Netcat       │      │
-│  └──────────────┘   └──────────────┘   └──────────────┘      │
-│                                                              │
-│      Host-Only / Lab Network: 192.168.0.1/24                 │
-└───────────────────────────────────────────────────────────── ┘`
+     WAZUH-SRV    │   │ WIN-ENDPOINT │   │ ATTACKER     │      
+│  │ Wazuh Server │   │ Windows 10   │   │ Kali Linux   │      
+│  │ Ubuntu 22.04 │   │ 192.168.0.103│   │ 192.168.0.105│      
+│  │ 192.168.0.106│   │ Wazuh Agent  │   │ Hydra/Nmap   │      
+│  │ SIEM         │   │              │   │ Netcat       │ 
 
 Tools Used
 ----------
