@@ -46,7 +46,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 4. Incident response started
 
 ### Evidence
-![image alt](../Screenshots/11-Bruteforce Alert Wazuh.png)
+![RDP Bruteforce Attack](../Screenshots/11-Bruteforce Alert Wazuh.png)
 
 ### Response Actions
 1. Blocked attacker IP at firewall
@@ -85,7 +85,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 3. Alert triggered
 
 ### Evidence
-![image alt](../Screenshots/13-Nmap Scan Running.png)
+![Nmap Scan Running](../Screenshots/13-Nmap Scan Running.png)
 
 ### Response Actions
 1. Identified scanning source
@@ -123,7 +123,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 3. Alert triggered
 
 ### Evidence
-![image alt](../Screenshots/15-Powershell Alert Wazuh.png)
+![PowerShell Alert Wazuh](../Screenshots/15-Powershell Alert Wazuh.png)
 
 ### Response Actions
 1. Isolated affected system
@@ -199,7 +199,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 3. Critical alert triggered
 
 ### Evidence
-![image alt](../Screenshots/18-Exfiltration Kali Received.png)
+![Exfiltration Kali Received](../Screenshots/18-Exfiltration Kali Received.png)
 
 ### Response Actions
 1. Blocked external transfer
