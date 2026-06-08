@@ -36,7 +36,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 
 ### Detection Details
 - **Wazuh Alert**: Bruteforce detection triggered
-- **Rule ID**: 60122
+- **Rule ID**: 60204
 - **Rule Level**: High
 
 ### Timeline
@@ -45,8 +45,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 3. Bruteforce alert triggered
 4. Incident response started
 
-### Evidence
-![RDP Bruteforce Attack](../Screenshots/11-Bruteforce Alert Wazuh.png)
+
 
 ### Response Actions
 1. Blocked attacker IP at firewall
@@ -77,15 +76,14 @@ This document summarizes incident responses for all 5 simulated attacks detected
 
 ### Detection Details
 - **Wazuh Alert**: Suspicious network scan
-- **Rule ID**: 100100
+- **Rule ID**: 4151
 
 ### Timeline
 1. Nmap scan initiated
 2. Wazuh detected scan activity
 3. Alert triggered
 
-### Evidence
-![Nmap Scan Running](../Screenshots/13-Nmap Scan Running.png)
+
 
 ### Response Actions
 1. Identified scanning source
@@ -114,7 +112,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 
 ### Detection Details
 - **Wazuh Alert**: PowerShell suspicious activity
-- **Rule ID**: 91835
+- **Rule ID**: 91815
 - **Rule Level**: High
 
 ### Timeline
@@ -122,8 +120,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 2.  Wazuh detected suspicious commands
 3. Alert triggered
 
-### Evidence
-![PowerShell Alert Wazuh](../Screenshots/15-Powershell Alert Wazuh.png)
+
 
 ### Response Actions
 1. Isolated affected system
@@ -152,7 +149,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 
 ### Detection Details
 - **Wazuh Alert**: Privilege escalation attempt
-- **Rule ID**: 67028
+- **Rule ID**: 60170
 - **Rule Level**: Critical
 
 ### Timeline
@@ -160,8 +157,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 2. Wazuh detected attack
 3. Critical alert triggered
 
-### Evidence
-![image alt](../Screenshots/17-Privilege Escalation Alert Wazuh.png)
+
 
 ### Response Actions
 1. Blocked escalation method
@@ -190,7 +186,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 
 ### Detection Details
 - **Wazuh Alert**: Exfiltration detected
-- **Rule ID**: 100102
+- **Rule ID**: 10002
 - **Rule Level**: Critical
 
 ### Timeline
@@ -198,8 +194,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 2. Wazuh detected transfer
 3. Critical alert triggered
 
-### Evidence
-![Exfiltration Kali Received](../Screenshots/18-Exfiltration Kali Received.png)
+
 
 ### Response Actions
 1. Blocked external transfer
@@ -240,5 +235,5 @@ This document summarizes incident responses for all 5 simulated attacks detected
 This blue-team lab successfully demonstrated Wazuh SIEM's capability to detect and alert on 5 different attack types. All incidents were documented with proper incident response procedures following the 6-phase incident response plan (Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned).
 
 **Lab Completed By**: Abin Jose  
-**Date**: [Insert Date]  
+**Date**: 8 June 2026  
 **Version**: 1.0
