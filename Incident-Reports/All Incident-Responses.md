@@ -103,7 +103,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 |-------|---------|
 | **Incident ID** | IR-003 |
 | **Date Detected** | 5 June 2026 |
-| **Time Detected** | [1:00 PM] |
+| **Time Detected** | 1:00 PM |
 | **Severity** | High |
 | **Attack Type** | PowerShell Exploitation |
 
@@ -177,7 +177,7 @@ This document summarizes incident responses for all 5 simulated attacks detected
 |-------|---------|
 | **Incident ID** | IR-005 |
 | **Date Detected** | 6 June 2026  |
-| **Time Detected** | 5:50 PM] |
+| **Time Detected** | 5:50 PM |
 | **Severity** | Critical |
 | **Attack Type** | Data Exfiltration |
 
