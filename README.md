@@ -1,5 +1,5 @@
 # Wazuh-Soc-Detection-Lab
-Wazuh SOC Detection Lab
+
 =======================
 
 Security Monitoring & Incident Response 
